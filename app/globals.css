@@ -11,6 +11,11 @@
   font-family: "Manrope", sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
 /* START: General styles */
 .max-width {
   @apply max-w-[1440px] mx-auto;
